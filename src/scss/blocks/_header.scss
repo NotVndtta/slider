@@ -3,7 +3,7 @@
 	position: relative;
 	background-color: #c4c4c4;
 
-	color: #fff;
+	color: hsl(0, 0%, 100%);
 
 }
 
@@ -14,7 +14,7 @@
 .header__nav {
     pointer-events: all;
 }
-.header_content {
+.header__content {
 	position: absolute;
 	z-index: 9;
 	top: 50px;
