@@ -74,14 +74,14 @@
 }
 .header__scrollbar {
     pointer-events: all;
+
 	position: absolute;
-	// z-index: 9;
 	right: 0;
-	top: 50%;	
+	top: 45%;
 
-	background-color: #c4c4c4;
-	height: 400px;
-	width: 10px;
+	width: 400px;
+	height: 10px;
 
-	transform: translate(0%,-50%);
+	transform: rotate(90deg) translate(50%, 0%);
+	transform-origin: right top;
 }
