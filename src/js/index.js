@@ -1,6 +1,8 @@
 import mobileNav from './modules/mobile-nav.js';
-mobileNav();
+import loader from './modules/loader.js';
 
+mobileNav();
+loader();
 // import Swiper bundle with all modules installed
 import Swiper from 'swiper/bundle';
 
